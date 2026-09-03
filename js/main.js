@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
-    utterance.rate = 0.85;
+    utterance.rate = 0.80;
     utterance.pitch = 1;
 
     synth.speak(utterance);
