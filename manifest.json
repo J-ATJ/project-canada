@@ -1,0 +1,22 @@
+{
+  "short_name": "Project Canada",
+  "name": "Project Canada - Vocabulario en Inglés",
+  "icons": [
+    {
+      "src": "./icons/maple.png",
+      "type": "image/png",
+      "sizes": "192x192 any"
+    },
+    {
+      "src": "./icons/maple.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#f8f9fa",
+  "display": "standalone",
+  "theme_color": "#579ff0",
+  "orientation": "portrait",
+  "description": "Aplicación introductoria para memorizar vocabulario en inglés por categorías."
+}

@@ -1,0 +1,231 @@
+/* --- VARIABLES DE DISEÑO --- */
+:root {
+    --primary: #579ff0;
+    --primary-dark: #3f86ce;
+    --secondary: #6c757d;
+    --secondary-dark: #545b62;
+    --info: #495057;
+    --success: #28a745;
+    --danger: #dc3545;
+    --highlight: #fe6b5d;
+    --background: #f8f9fa;
+    --text: #333;
+    --white: #ffffff;
+    --background-hover: #ececec;
+    --shadow: 0 4px 6px #0000001a;
+}
+
+/* --- RESET Y BASE --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--background);
+    color: var(--text-white);
+    line-height: 1.6;
+}
+
+
+/* --- HEADER --- */
+
+header {
+    background-color: var(--primary);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 22px;
+    background-color: var(--primary);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header nav h1 {
+    color: var(--white);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header nav div img {
+    height: 35px;
+    width: auto;
+}
+
+/* --- MAIN --- */
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* --- CONTENEDORES --- */
+.view {
+    width: 100%;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1.3rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+/* --- BOTONES GENERALES --- */
+button {
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+.daily-highlight {
+    border: 2px solid var(--primary);
+    margin-bottom: 45px;
+}
+
+
+
+.menu button {
+    background-color: var(--primary);
+    color: var(--white);
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.btn-back {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: var(--background-hover);
+}
+
+
+
+/* --- NIVEL 1 --- */
+
+/* Contenedor de las tarjetas de palabras */
+.words-display {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 100%;
+}
+
+/* Tarjeta individual de vocabulario */
+.word-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.104);
+    width: 100%;
+}
+
+/* Encabezado de la tarjeta (Palabra en inglés y tipo) */
+.word-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.word-en {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-dark);
+    text-transform: capitalize;
+}
+
+.word-type {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    background-color: var(--background-hover);
+    color: var(--secondary-dark);
+    padding: 4px 12px;
+    border-radius: 20px;
+
+}
+
+
+/* Cuerpo de la tarjeta (Español y Ejemplo) */
+.word-body p {
+    margin: 5px 0;
+    font-size: 15px;
+    color: var(--info);
+}
+
+.word-es {
+    margin-bottom: 10px !important;
+}
+
+.word-es span {
+    color: var(--highlight);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.word-example em {
+    color: #6c757d;
+}
+
+.no-words {
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.word-example-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.example-text-col {
+    flex: 0 0 80%;
+    width: 80%;
+}
+
+.example-audio-col {
+    flex: 0 0 20%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-audio-example {
+    background: none !important;
+    color: var(--primary-dark) !important;
+    font-size: 1.4rem !important;
+    padding: 0 !important;
+    width: auto !important;
+    margin: 0 !important;
+    cursor: pointer;
+    box-shadow: none !important;
+}
+
+.btn-audio-example:active {
+    transform: scale(0.85) !important;
+}

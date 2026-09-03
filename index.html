@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#62edae">
+    <title>Project Canada</title>
+
+    <link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="./icons/maple.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Project Canada</h1>
+            <div><img src="./icons/maple.png" alt="maple"></div>
+        </nav>
+    </header>
+
+    <main id="app-container">
+        <!-- LANDING / INICIO -->
+        <section id="landing" class="view">
+            <div id="daily-card"></div>
+            <div class="menu">
+                <!-- <button data-target="notas">Notas Rápidas</button> -->
+                <button data-target="nivel-1">Vocabulario 1</button>
+                <button data-target="nivel-2">Vocabulario 2</button>
+                <button data-target="nivel-3">Vocabulario 3</button>
+            </div>
+        </section>
+
+        <!-- NIVEL 1 -->
+        <section id="nivel-1" class="view hidden">
+
+            <!-- BLOQUE A: EL MENÚ DE SECCIONES -->
+            <div class="submenu-wrapper">
+                <button class="btn-back" data-target="landing">Volver</button>
+                <div class="menu">
+                    <button data-section="pronombres">Pronombres</button>
+                    <button data-section="familia">Familia y Conocidos</button>
+                    <button data-section="hogar">Hogar</button>
+                    <button data-section="cuerpo">Cuerpo Humano</button>
+                    <button data-section="animales">Animales</button>
+                    <button data-section="expresiones">Expresiones</button>
+                    <button data-section="acciones-basicas">Acciones Básicas</button>
+                </div>
+            </div>
+
+            <!-- BLOQUE B: LA VENTANA DE LAS TARJETAS (Oculta al principio con .hidden) -->
+            <div class="words-wrapper hidden">
+                <!-- Este botón no vuelve a la landing, vuelve al menú del Nivel 1 -->
+                <button class="btn-back btn-back-to-menu">Volver</button>
+                <div class="words-display"></div>
+            </div>
+
+        </section>
+
+
+        <!-- NIVEL 2 -->
+        <section id="nivel-2" class="view hidden">
+
+            <!-- BLOQUE A: EL MENÚ DE SECCIONES -->
+            <div class="submenu-wrapper">
+                <button class="btn-back" data-target="landing">Volver</button>
+                <div class="menu">
+                    <button data-section="lugares">Lugares de la Ciudad</button>
+                    <button data-section="transporte">Medios de Transporte</button>
+                    <button data-section="naturaleza">Naturaleza</button>
+                    <button data-section="alimentos">Alimentos</button>
+                    <button data-section="ropa">Ropa</button>
+                    <button data-section="descripciones-simples">Descripciones Simples</button>
+                </div>
+            </div>
+
+            <!-- BLOQUE B: LA VENTANA DE LAS TARJETAS -->
+            <div class="words-wrapper hidden">
+                <button class="btn-back-to-menu">Volver</button>
+                <div class="words-display"></div>
+            </div>
+
+        </section>
+
+        <!-- NIVEL 3 -->
+        <section id="nivel-3" class="view hidden">
+
+            <!-- BLOQUE A: EL MENÚ DE SECCIONES -->
+            <div class="submenu-wrapper">
+                <button class="btn-back" data-target="landing">Volver</button>
+                <div class="menu">
+                    <button data-section="profesiones">Profesiones</button>
+                    <button data-section="emociones">Emociones y Sentimientos</button>
+                    <button data-section="tecnologia">Tecnología y Ciencia</button>
+                    <button data-section="turismo">Turismo</button>
+                    <button data-section="acciones-avanzadas">Acciones avanzadas</button>
+                    <button data-section="descripciones-avanzadas">Descripciones avanzadas</button>
+                </div>
+            </div>
+
+            <!-- BLOQUE B: LA VENTANA DE LAS TARJETAS -->
+            <div class="words-wrapper hidden">
+                <button class="btn-back-to-menu">Volver</button>
+                <div class="words-display"></div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer></footer>
+
+
+    <!-- Primero los datos -->
+    <script src="js/db.js"></script>
+
+    <!-- Luego los controladores de los niveles -->
+    <script src="js/nivel1.js"></script>
+    <script src="js/nivel2.js"></script>
+    <script src="js/nivel3.js"></script>
+
+    <!-- Archivo principal al final del body -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
