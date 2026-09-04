@@ -84,8 +84,8 @@ let db = [
     "categoria": "familia",
     "tipo": "sustantivo",
     "traduccion": "padre",
-    "ejemplo_en": "My father is tall",
-    "ejemplo_es": "Mi padre es alto"
+    "ejemplo_en": "My father is serious",
+    "ejemplo_es": "Mi padre es serio"
   },
   {
     "palabra": "sister",
@@ -100,16 +100,16 @@ let db = [
     "categoria": "familia",
     "tipo": "sustantivo",
     "traduccion": "hijo",
-    "ejemplo_en": "He loves his son",
-    "ejemplo_es": "Él ama a su hijo"
+    "ejemplo_en": "She helps her son",
+    "ejemplo_es": "Ella ayuda a su hijo"
   },
   {
     "palabra": "daughter",
     "categoria": "familia",
     "tipo": "sustantivo",
     "traduccion": "hija",
-    "ejemplo_en": "She helps her daughter",
-    "ejemplo_es": "Ella ayuda a su hija"
+    "ejemplo_en": "She loves her daughter",
+    "ejemplo_es": "Ella ama a su hija"
   },
   {
     "palabra": "baby",
@@ -120,12 +120,100 @@ let db = [
     "ejemplo_es": "El bebé está durmiendo"
   },
   {
+    "palabra": "grandfather",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "abuelo",
+    "ejemplo_en": "My grandfather is wise",
+    "ejemplo_es": "Mi abuelo es sabio"
+  },
+  {
+    "palabra": "grandmother",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "abuela",
+    "ejemplo_en": "My grandmother cooks well",
+    "ejemplo_es": "Mi abuela cocina bien"
+  },
+  {
+    "palabra": "uncle",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "tío",
+    "ejemplo_en": "My uncle lives far away",
+    "ejemplo_es": "Mi tío vive lejos"
+  },
+  {
+    "palabra": "aunt",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "tía",
+    "ejemplo_en": "My aunt is very kind",
+    "ejemplo_es": "Mi tía es muy amable"
+  },
+  {
+    "palabra": "cousin",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "primo/a",
+    "ejemplo_en": "My cousin is tall",
+    "ejemplo_es": "Mi primo es alto"
+  },
+  {
+    "palabra": "classmate",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "compañero de clase",
+    "ejemplo_en": "My classmate helps me",
+    "ejemplo_es": "Mi compañero de clase me ayuda"
+  },
+  {
+    "palabra": "nephew",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "sobrino",
+    "ejemplo_en": "My nephew sings well",
+    "ejemplo_es": "Mi sobrino canta bien"
+  },
+  {
+    "palabra": "niece",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "sobrina",
+    "ejemplo_en": "My niece is painting",
+    "ejemplo_es": "Mi sobrina está pintando"
+  },
+  {
+    "palabra": "husband",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "esposo",
+    "ejemplo_en": "Her husband is working",
+    "ejemplo_es": "Su esposo está trabajando"
+  },
+  {
+    "palabra": "neighbor",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "vecino/a",
+    "ejemplo_en": "The neighbor is friendly",
+    "ejemplo_es": "El vecino es amigable"
+  },
+  {
+    "palabra": "wife",
+    "categoria": "familia",
+    "tipo": "sustantivo",
+    "traduccion": "esposa",
+    "ejemplo_en": "His wife is a doctor",
+    "ejemplo_es": "Su esposa es doctora"
+  },
+  {
     "palabra": "house",
     "categoria": "hogar",
     "tipo": "sustantivo",
     "traduccion": "casa",
     "ejemplo_en": "The house is big",
-    "ejemplo_es": "La caja es grande"
+    "ejemplo_es": "La casa es grande"
   },
   {
     "palabra": "bed",
@@ -192,6 +280,94 @@ let db = [
     "ejemplo_es": "Yo tengo la llave"
   },
   {
+    "palabra": "bathroom",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "baño",
+    "ejemplo_en": "The bathroom is clean",
+    "ejemplo_es": "El baño está limpio"
+  },
+  {
+    "palabra": "sofa",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "sillón",
+    "ejemplo_en": "The sofa is comfortable",
+    "ejemplo_es": "El sillón es cómodo"
+  },
+  {
+    "palabra": "mirror",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "espejo",
+    "ejemplo_en": "Look in the mirror",
+    "ejemplo_es": "Mira en el espejo"
+  },
+  {
+    "palabra": "garden",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "jardín",
+    "ejemplo_en": "The garden has flowers",
+    "ejemplo_es": "El jardín tiene flores"
+  },
+  {
+    "palabra": "yard",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "patio",
+    "ejemplo_en": "The dog is in the yard",
+    "ejemplo_es": "El perro está en el patio"
+  },
+  {
+    "palabra": "television",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "televisión",
+    "ejemplo_en": "Turn off the television",
+    "ejemplo_es": "Apaga la televisión"
+  },
+  {
+    "palabra": "refrigerator",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "refrigerador",
+    "ejemplo_en": "The food is in the refrigerator",
+    "ejemplo_es": "La comida está en el refrigerador"
+  },
+  {
+    "palabra": "broom",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "escoba",
+    "ejemplo_en": "Use the broom to clean",
+    "ejemplo_es": "Usa la escoba para limpiar"
+  },
+  {
+    "palabra": "soap",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "jabón",
+    "ejemplo_en": "The soap smells good",
+    "ejemplo_es": "El jabón huele rico"
+  },
+  {
+    "palabra": "bucket",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "cubeta",
+    "ejemplo_en": "The bucket is full of water",
+    "ejemplo_es": "La cubeta está llena de agua"
+  },
+  {
+    "palabra": "trash can",
+    "categoria": "hogar",
+    "tipo": "sustantivo",
+    "traduccion": "bote de basura",
+    "ejemplo_en": "Put the paper in the trash can",
+    "ejemplo_es": "Pon el papel en el bote de basura"
+  },
+  {
     "palabra": "book",
     "categoria": "hogar",
     "tipo": "sustantivo",
@@ -204,8 +380,8 @@ let db = [
     "categoria": "cuerpo",
     "tipo": "sustantivo",
     "traduccion": "mano",
-    "ejemplo_en": "Wash your hand",
-    "ejemplo_es": "Lava tu mano"
+    "ejemplo_en": "Wash your hands",
+    "ejemplo_es": "Lava tus manos"
   },
   {
     "palabra": "head",
@@ -244,8 +420,8 @@ let db = [
     "categoria": "cuerpo",
     "tipo": "sustantivo",
     "traduccion": "pierna",
-    "ejemplo_en": "The leg hurts",
-    "ejemplo_es": "La pierna duele"
+    "ejemplo_en": "My leg hurts",
+    "ejemplo_es": "Mi pierna duele"
   },
   {
     "palabra": "foot",
@@ -262,6 +438,46 @@ let db = [
     "traduccion": "boca",
     "ejemplo_en": "Close your mouth",
     "ejemplo_es": "Cierra tu boca"
+  },
+  {
+    "palabra": "ear",
+    "categoria": "cuerpo",
+    "tipo": "sustantivo",
+    "traduccion": "oreja",
+    "ejemplo_en": "My ear is cold",
+    "ejemplo_es": "Mi oreja está fría"
+  },
+  {
+    "palabra": "hair",
+    "categoria": "cuerpo",
+    "tipo": "sustantivo",
+    "traduccion": "cabello",
+    "ejemplo_en": "Brush your hair",
+    "ejemplo_es": "Cepilla tu cabello"
+  },
+  {
+    "palabra": "smile",
+    "categoria": "cuerpo",
+    "tipo": "sustantivo",
+    "traduccion": "sonrisa",
+    "ejemplo_en": "You have a nice smile",
+    "ejemplo_es": "Tienes una bonita sonrisa"
+  },
+  {
+    "palabra": "finger",
+    "categoria": "cuerpo",
+    "tipo": "sustantivo",
+    "traduccion": "dedo (de la mano)",
+    "ejemplo_en": "Point with your finger",
+    "ejemplo_es": "Señala con tu dedo"
+  },
+  {
+    "palabra": "nose",
+    "categoria": "cuerpo",
+    "tipo": "sustantivo",
+    "traduccion": "nariz",
+    "ejemplo_en": "Touch your nose",
+    "ejemplo_es": "Toca tu nariz"
   },
   {
     "palabra": "bird",
@@ -332,8 +548,8 @@ let db = [
     "categoria": "animales",
     "tipo": "sustantivo",
     "traduccion": "lobo",
-    "ejemplo_en": "The wolf runs at night",
-    "ejemplo_es": "El lobo corre de noche"
+    "ejemplo_en": "The wolf hunts at night",
+    "ejemplo_es": "El lobo caza de noche"
   },
   {
     "palabra": "fox",
@@ -344,12 +560,60 @@ let db = [
     "ejemplo_es": "El zorro es pequeño y rápido"
   },
   {
+    "palabra": "lion",
+    "categoria": "animales",
+    "tipo": "sustantivo",
+    "traduccion": "león",
+    "ejemplo_en": "The lion is the king",
+    "ejemplo_es": "El león es el rey"
+  },
+  {
+    "palabra": "cow",
+    "categoria": "animales",
+    "tipo": "sustantivo",
+    "traduccion": "vaca",
+    "ejemplo_en": "The cow gives milk",
+    "ejemplo_es": "La vaca da leche"
+  },
+  {
+    "palabra": "monkey",
+    "categoria": "animales",
+    "tipo": "sustantivo",
+    "traduccion": "mono",
+    "ejemplo_en": "The monkey climbs trees",
+    "ejemplo_es": "El mono escala árboles"
+  },
+  {
+    "palabra": "pig",
+    "categoria": "animales",
+    "tipo": "sustantivo",
+    "traduccion": "cerdo",
+    "ejemplo_en": "The pig is in the mud",
+    "ejemplo_es": "El cerdo está en el lodo"
+  },
+  {
+    "palabra": "dolphin",
+    "categoria": "animales",
+    "tipo": "sustantivo",
+    "traduccion": "delfín",
+    "ejemplo_en": "The dolphin swims fast",
+    "ejemplo_es": "El delfín nada rápido"
+  },
+  {
+    "palabra": "owl",
+    "categoria": "animales",
+    "tipo": "sustantivo",
+    "traduccion": "búho",
+    "ejemplo_en": "The owl flies quietly",
+    "ejemplo_es": "El búho vuela silenciosamente"
+  },
+  {
     "palabra": "hello",
     "categoria": "expresiones",
     "tipo": "expresión",
     "traduccion": "hola",
-    "ejemplo_en": "Hello how are you",
-    "ejemplo_es": "Hola cómo estás"
+    "ejemplo_en": "Hello, how are you?",
+    "ejemplo_es": "Hola, ¿cómo estás?"
   },
   {
     "palabra": "thanks",
@@ -364,8 +628,8 @@ let db = [
     "categoria": "expresiones",
     "tipo": "expresión",
     "traduccion": "por favor",
-    "ejemplo_en": "Sit down please",
-    "ejemplo_es": "Siéntate por favor"
+    "ejemplo_en": "Sit down, please",
+    "ejemplo_es": "Siéntate, por favor"
   },
   {
     "palabra": "goodbye",
@@ -380,16 +644,16 @@ let db = [
     "categoria": "expresiones",
     "tipo": "expresión",
     "traduccion": "sí",
-    "ejemplo_en": "Yes I am ready",
-    "ejemplo_es": "Sí yo estoy listo"
+    "ejemplo_en": "Yes, I am ready",
+    "ejemplo_es": "Sí, yo estoy listo"
   },
   {
     "palabra": "no",
     "categoria": "expresiones",
     "tipo": "expresión",
     "traduccion": "no",
-    "ejemplo_en": "No thank you",
-    "ejemplo_es": "No gracias"
+    "ejemplo_en": "No, thank you",
+    "ejemplo_es": "No, gracias"
   },
   {
     "palabra": "welcome",
@@ -436,8 +700,8 @@ let db = [
     "categoria": "acciones-basicas",
     "tipo": "verbo",
     "traduccion": "beber",
-    "ejemplo_en": "I drink water",
-    "ejemplo_es": "Yo bebo agua"
+    "ejemplo_en": "I drink wine",
+    "ejemplo_es": "Yo bebo vino"
   },
   {
     "palabra": "run",
@@ -452,8 +716,8 @@ let db = [
     "categoria": "acciones-basicas",
     "tipo": "verbo",
     "traduccion": "dormir",
-    "ejemplo_en": "The cat lives to sleep",
-    "ejemplo_es": "Al gato le gusta dormir"
+    "ejemplo_en": "The cat loves to sleep",
+    "ejemplo_es": "El gato ama dormir"
   },
   {
     "palabra": "read",
@@ -500,8 +764,8 @@ let db = [
     "categoria": "acciones-basicas",
     "tipo": "verbo",
     "traduccion": "cerrar",
-    "ejemplo_en": "Close the door",
-    "ejemplo_es": "Cierra la puerta"
+    "ejemplo_en": "Close the door!",
+    "ejemplo_es": "¡Cierra la puerta!"
   },
   {
     "palabra": "learn",
@@ -524,8 +788,8 @@ let db = [
     "categoria": "acciones-basicas",
     "tipo": "verbo",
     "traduccion": "jugar",
-    "ejemplo_en": "The children play outside",
-    "ejemplo_es": "Los niños juegan afuera"
+    "ejemplo_en": "The girl plays outside",
+    "ejemplo_es": "La niña juega afuera"
   },
   {
     "palabra": "buy",
@@ -533,7 +797,7 @@ let db = [
     "tipo": "verbo",
     "traduccion": "comprar",
     "ejemplo_en": "I want to buy a car",
-    "ejemplo_es": "Yo quiero comprar un carro"
+    "ejemplo_es": "Yo quiero comprar un coche"
   },
   {
     "palabra": "make",
@@ -556,40 +820,40 @@ let db = [
     "categoria": "acciones-basicas",
     "tipo": "verbo",
     "traduccion": "encontrar",
-    "ejemplo_en": "I need to find my key",
-    "ejemplo_es": "Yo necesito encontrar mi llave"
+    "ejemplo_en": "I need to find my keys",
+    "ejemplo_es": "Yo necesito encontrar mis llaves"
   },
   {
     "palabra": "give",
     "categoria": "acciones-basicas",
     "tipo": "verbo",
     "traduccion": "dar",
-    "ejemplo_en": "Give me the book please",
-    "ejemplo_es": "Dame el libro por favor"
+    "ejemplo_en": "Give me the book, please",
+    "ejemplo_es": "Dame el libro, por favor"
   },
   {
     "palabra": "take",
     "categoria": "acciones-basicas",
     "tipo": "verbo",
     "traduccion": "tomar / llevar",
-    "ejemplo_en": "Take your coat today",
-    "ejemplo_es": "Toma tu abrigo hoy"
+    "ejemplo_en": "Take my hand",
+    "ejemplo_es": "Toma mi mano"
   },
   {
     "palabra": "clean",
     "categoria": "acciones-basicas",
     "tipo": "verbo",
     "traduccion": "limpiar",
-    "ejemplo_en": "Clean your room please",
-    "ejemplo_es": "Limpia tu habitación por favor"
+    "ejemplo_en": "Clean your room, please",
+    "ejemplo_es": "Limpia tu habitación, por favor"
   },
   {
     "palabra": "wash",
     "categoria": "acciones-basicas",
     "tipo": "verbo",
     "traduccion": "lavar",
-    "ejemplo_en": "Wash your hands now",
-    "ejemplo_es": "Lava tu manos ahora"
+    "ejemplo_en": "Wash the car",
+    "ejemplo_es": "Lava el coche"
   },
   {
     "palabra": "city",
@@ -644,8 +908,8 @@ let db = [
     "categoria": "lugares",
     "tipo": "sustantivo",
     "traduccion": "banco",
-    "ejemplo_en": "The bank is open",
-    "ejemplo_es": "El banco está abierto"
+    "ejemplo_en": "The bank is far away",
+    "ejemplo_es": "El banco está lejos"
   },
   {
     "palabra": "restaurant",
@@ -656,20 +920,52 @@ let db = [
     "ejemplo_es": "El restaurante es bueno"
   },
   {
+    "palabra": "supermarket",
+    "categoria": "lugares",
+    "tipo": "sustantivo",
+    "traduccion": "supermercado",
+    "ejemplo_en": "I go to the supermarket",
+    "ejemplo_es": "Yo voy al supermercado"
+  },
+  {
+    "palabra": "parking lot",
+    "categoria": "lugares",
+    "tipo": "sustantivo",
+    "traduccion": "estacionamiento",
+    "ejemplo_en": "The parking lot is full",
+    "ejemplo_es": "El estacionamiento está lleno"
+  },
+  {
+    "palabra": "gas station",
+    "categoria": "lugares",
+    "tipo": "sustantivo",
+    "traduccion": "gasolinera",
+    "ejemplo_en": "The gas station is open",
+    "ejemplo_es": "La gasolinera está abierta"
+  },
+  {
+    "palabra": "pharmacy",
+    "categoria": "lugares",
+    "tipo": "sustantivo",
+    "traduccion": "farmacia",
+    "ejemplo_en": "I need to go to the pharmacy",
+    "ejemplo_es": "Necesito ir a la farmacia"
+  },
+  {
     "palabra": "car",
     "categoria": "transporte",
     "tipo": "sustantivo",
-    "traduccion": "carro",
+    "traduccion": "coche",
     "ejemplo_en": "The car is red",
-    "ejemplo_es": "El carro es rojo"
+    "ejemplo_es": "El coche es rojo"
   },
   {
     "palabra": "bus",
     "categoria": "transporte",
     "tipo": "sustantivo",
     "traduccion": "autobús",
-    "ejemplo_en": "The bus is late",
-    "ejemplo_es": "El autobús va tarde"
+    "ejemplo_en": "The bus is black",
+    "ejemplo_es": "El autobús es negro"
   },
   {
     "palabra": "train",
@@ -700,8 +996,8 @@ let db = [
     "categoria": "transporte",
     "tipo": "sustantivo",
     "traduccion": "taxi",
-    "ejemplo_en": "Call a taxi please",
-    "ejemplo_es": "Llame a un taxi por favor"
+    "ejemplo_en": "Call a taxi, please",
+    "ejemplo_es": "Llame a un taxi, por favor"
   },
   {
     "palabra": "boat",
@@ -772,8 +1068,8 @@ let db = [
     "categoria": "naturaleza",
     "tipo": "sustantivo",
     "traduccion": "mar",
-    "ejemplo_en": "The sea is big",
-    "ejemplo_es": "El mar es grande"
+    "ejemplo_en": "The sea is dangerous",
+    "ejemplo_es": "El mar es peligroso"
   },
   {
     "palabra": "rain",
@@ -915,7 +1211,7 @@ let db = [
     "palabra": "banana",
     "categoria": "alimentos",
     "tipo": "sustantivo",
-    "traduccion": "plátano / banano",
+    "traduccion": "plátano",
     "ejemplo_en": "The banana is yellow",
     "ejemplo_es": "El plátano es amarillo"
   },
@@ -940,8 +1236,8 @@ let db = [
     "categoria": "alimentos",
     "tipo": "sustantivo",
     "traduccion": "sopa",
-    "ejemplo_en": "The soup is hot",
-    "ejemplo_es": "La sopa está caliente"
+    "ejemplo_en": "The soup is frozen",
+    "ejemplo_es": "La sopa está congelada"
   },
   {
     "palabra": "coffee",
@@ -960,6 +1256,14 @@ let db = [
     "ejemplo_es": "El té está tibio"
   },
   {
+    "palabra": "t-shirt",
+    "categoria": "ropa",
+    "tipo": "sustantivo",
+    "traduccion": "playera",
+    "ejemplo_en": "The t-shirt is tight",
+    "ejemplo_es": "La playera está apretada"
+  },
+  {
     "palabra": "shirt",
     "categoria": "ropa",
     "tipo": "sustantivo",
@@ -972,40 +1276,40 @@ let db = [
     "categoria": "ropa",
     "tipo": "sustantivo",
     "traduccion": "zapato",
-    "ejemplo_en": "My shoe is new",
-    "ejemplo_es": "Mi zapato es nuevo"
+    "ejemplo_en": "My shoe is torn",
+    "ejemplo_es": "Mi zapato está rasgado"
   },
   {
     "palabra": "hat",
     "categoria": "ropa",
     "tipo": "sustantivo",
     "traduccion": "sombrero",
-    "ejemplo_en": "The hat is black",
-    "ejemplo_es": "El sombrero es negro"
+    "ejemplo_en": "The hat is brown",
+    "ejemplo_es": "El sombrero es café"
   },
   {
     "palabra": "pants",
     "categoria": "ropa",
     "tipo": "sustantivo",
     "traduccion": "pantalones",
-    "ejemplo_en": "The pants are blue",
-    "ejemplo_es": "Los pantalones son azules"
+    "ejemplo_en": "The pants are loose",
+    "ejemplo_es": "Los pantalones están flojos"
   },
   {
     "palabra": "dress",
     "categoria": "ropa",
     "tipo": "sustantivo",
     "traduccion": "vestido",
-    "ejemplo_en": "The dress is pretty",
-    "ejemplo_es": "El vestido es bonito"
+    "ejemplo_en": "The dress is expensive",
+    "ejemplo_es": "El vestido está caro"
   },
   {
     "palabra": "coat",
     "categoria": "ropa",
     "tipo": "sustantivo",
     "traduccion": "abrigo",
-    "ejemplo_en": "The coat is warm",
-    "ejemplo_es": "El abrigo es abrigador"
+    "ejemplo_en": "My coat is elegant",
+    "ejemplo_es": "Mi abrigo es elegante"
   },
   {
     "palabra": "socks",
@@ -1016,12 +1320,60 @@ let db = [
     "ejemplo_es": "Mis calcetines son blancos"
   },
   {
+    "palabra": "jacket",
+    "categoria": "ropa",
+    "tipo": "sustantivo",
+    "traduccion": "chamarra",
+    "ejemplo_en": "Take your jacket today",
+    "ejemplo_es": "Lleva tu chamarra hoy"
+  },
+  {
+    "palabra": "skirt",
+    "categoria": "ropa",
+    "tipo": "sustantivo",
+    "traduccion": "falda",
+    "ejemplo_en": "The skirt is purple",
+    "ejemplo_es": "La falda es morada"
+  },
+  {
+    "palabra": "boots",
+    "categoria": "ropa",
+    "tipo": "sustantivo",
+    "traduccion": "botas",
+    "ejemplo_en": "My boots are black",
+    "ejemplo_es": "Mis botas son negras"
+  },
+  {
+    "palabra": "gloves",
+    "categoria": "ropa",
+    "tipo": "sustantivo",
+    "traduccion": "guantes",
+    "ejemplo_en": "My gloves are in the car",
+    "ejemplo_es": "Mis guantes están en el coche"
+  },
+  {
+    "palabra": "scarf",
+    "categoria": "ropa",
+    "tipo": "sustantivo",
+    "traduccion": "bufanda",
+    "ejemplo_en": "The scarf is soft",
+    "ejemplo_es": "La bufanda es suave"
+  },
+  {
+    "palabra": "sandals",
+    "categoria": "ropa",
+    "tipo": "sustantivo",
+    "traduccion": "sandalias",
+    "ejemplo_en": "My sandals are comfortable",
+    "ejemplo_es": "Mis sandalias son cómodas"
+  },
+  {
     "palabra": "big",
     "categoria": "descripciones-simples",
     "tipo": "adjetivo",
     "traduccion": "grande",
-    "ejemplo_en": "The box is big",
-    "ejemplo_es": "La caja es grande"
+    "ejemplo_en": "The house is big",
+    "ejemplo_es": "La casa es grande"
   },
   {
     "palabra": "new",
@@ -1053,7 +1405,7 @@ let db = [
     "tipo": "adjetivo",
     "traduccion": "viejo",
     "ejemplo_en": "The car is old",
-    "ejemplo_es": "El carro es viejo"
+    "ejemplo_es": "El coche es viejo"
   },
   {
     "palabra": "good",
@@ -1100,16 +1452,16 @@ let db = [
     "categoria": "descripciones-simples",
     "tipo": "adjetivo",
     "traduccion": "rápido",
-    "ejemplo_en": "The train is fast",
-    "ejemplo_es": "El tren es rápido"
+    "ejemplo_en": "The tiger is fast",
+    "ejemplo_es": "El tigre es rápido"
   },
   {
     "palabra": "slow",
     "categoria": "descripciones-simples",
     "tipo": "adjetivo",
     "traduccion": "lento",
-    "ejemplo_en": "The bus is slow",
-    "ejemplo_es": "El autobús es lento"
+    "ejemplo_en": "The snail is slow",
+    "ejemplo_es": "El caracol es lento"
   },
   {
     "palabra": "easy",
@@ -1164,8 +1516,8 @@ let db = [
     "categoria": "descripciones-simples",
     "tipo": "adjetivo",
     "traduccion": "pesado",
-    "ejemplo_en": "The box is heavy",
-    "ejemplo_es": "La caja es pesada"
+    "ejemplo_en": "The rock is heavy",
+    "ejemplo_es": "La roca es pesada"
   },
   {
     "palabra": "light",
@@ -1204,16 +1556,8 @@ let db = [
     "categoria": "descripciones-simples",
     "tipo": "adjetivo",
     "traduccion": "duro",
-    "ejemplo_en": "The rock is hard",
-    "ejemplo_es": "La roca es dura"
-  },
-  {
-    "palabra": "rich",
-    "categoria": "descripciones-simples",
-    "tipo": "adjetivo",
-    "traduccion": "rico",
-    "ejemplo_en": "The man is rich",
-    "ejemplo_es": "El hombre es rico"
+    "ejemplo_en": "The wall is hard",
+    "ejemplo_es": "El muro es duro"
   },
   {
     "palabra": "poor",
@@ -1228,8 +1572,8 @@ let db = [
     "categoria": "descripciones-simples",
     "tipo": "adjetivo",
     "traduccion": "dulce",
-    "ejemplo_en": "The candy is sweet",
-    "ejemplo_es": "The dulce es dulce"
+    "ejemplo_en": "The marshmallow is sweet",
+    "ejemplo_es": "El bombón es dulce"
   },
   {
     "palabra": "sour",
@@ -1284,8 +1628,8 @@ let db = [
     "categoria": "profesiones",
     "tipo": "sustantivo",
     "traduccion": "conductor",
-    "ejemplo_en": "The bus driver is nice",
-    "ejemplo_es": "El conductor del autobús es agradable"
+    "ejemplo_en": "The bus driver is not here",
+    "ejemplo_es": "El conductor del autobús no está aquí"
   },
   {
     "palabra": "chef",
@@ -1300,16 +1644,64 @@ let db = [
     "categoria": "profesiones",
     "tipo": "sustantivo",
     "traduccion": "agricultor",
-    "ejemplo_en": "The farmer has land",
-    "ejemplo_es": "El agricultor tiene tierra"
+    "ejemplo_en": "The farmer has animals",
+    "ejemplo_es": "El granjero tiene animales"
+  },
+  {
+    "palabra": "dentist",
+    "categoria": "profesiones",
+    "tipo": "sustantivo",
+    "traduccion": "dentista",
+    "ejemplo_en": "I need to see the dentist",
+    "ejemplo_es": "Necesito ver al dentista"
+  },
+  {
+    "palabra": "lawyer",
+    "categoria": "profesiones",
+    "tipo": "sustantivo",
+    "traduccion": "abogado",
+    "ejemplo_en": "The lawyer helps my family",
+    "ejemplo_es": "El abogado ayuda a mi familia"
+  },
+  {
+    "palabra": "engineer",
+    "categoria": "profesiones",
+    "tipo": "sustantivo",
+    "traduccion": "ingeniero",
+    "ejemplo_en": "The engineer builds things",
+    "ejemplo_es": "El ingeniero construye cosas"
+  },
+  {
+    "palabra": "mechanic",
+    "categoria": "profesiones",
+    "tipo": "sustantivo",
+    "traduccion": "mecánico",
+    "ejemplo_en": "The mechanic fixes my car",
+    "ejemplo_es": "El mecánico arregla mi coche"
+  },
+  {
+    "palabra": "carpenter",
+    "categoria": "profesiones",
+    "tipo": "sustantivo",
+    "traduccion": "carpintero",
+    "ejemplo_en": "The carpenter makes a table",
+    "ejemplo_es": "El carpintero hace una mesa"
+  },
+  {
+    "palabra": "waiter",
+    "categoria": "profesiones",
+    "tipo": "sustantivo",
+    "traduccion": "mesero",
+    "ejemplo_en": "The waiter brings the food",
+    "ejemplo_es": "El mesero trae la comida"
   },
   {
     "palabra": "sad",
     "categoria": "emociones",
     "tipo": "adjetivo",
     "traduccion": "triste",
-    "ejemplo_en": "Why are you sad",
-    "ejemplo_es": "Por qué estás triste"
+    "ejemplo_en": "Why are you sad?",
+    "ejemplo_es": "¿Por qué estás triste?"
   },
   {
     "palabra": "angry",
@@ -1348,8 +1740,8 @@ let db = [
     "categoria": "emociones",
     "tipo": "adjetivo",
     "traduccion": "aburrido",
-    "ejemplo_en": "The boy is bored",
-    "ejemplo_es": "El niño está aburrido"
+    "ejemplo_en": "The girl is bored",
+    "ejemplo_es": "La niña está aburrida"
   },
   {
     "palabra": "excited",
@@ -1358,6 +1750,46 @@ let db = [
     "traduccion": "emocionado",
     "ejemplo_en": "We are excited",
     "ejemplo_es": "Nosotros estamos emocionados"
+  },
+  {
+    "palabra": "nervous",
+    "categoria": "emociones",
+    "tipo": "adjetivo",
+    "traduccion": "nervioso",
+    "ejemplo_en": "I am nervous",
+    "ejemplo_es": "Estoy nervioso"
+  },
+  {
+    "palabra": "proud",
+    "categoria": "emociones",
+    "tipo": "adjetivo",
+    "traduccion": "orgulloso",
+    "ejemplo_en": "My parents are proud",
+    "ejemplo_es": "Mis padres están orgullosos"
+  },
+  {
+    "palabra": "confused",
+    "categoria": "emociones",
+    "tipo": "adjetivo",
+    "traduccion": "confundido",
+    "ejemplo_en": "The student is confused",
+    "ejemplo_es": "El estudiante está confundido"
+  },
+  {
+    "palabra": "calm",
+    "categoria": "emociones",
+    "tipo": "adjetivo",
+    "traduccion": "calmado",
+    "ejemplo_en": "The baby is calm now",
+    "ejemplo_es": "El bebé está calmado ahora"
+  },
+  {
+    "palabra": "worried",
+    "categoria": "emociones",
+    "tipo": "adjetivo",
+    "traduccion": "preocupado",
+    "ejemplo_en": "My mother is worried",
+    "ejemplo_es": "Mi madre está preocupada"
   },
   {
     "palabra": "phone",
@@ -1372,8 +1804,8 @@ let db = [
     "categoria": "tecnologia",
     "tipo": "sustantivo",
     "traduccion": "computadora",
-    "ejemplo_en": "The computer is fast",
-    "ejemplo_es": "La computadora es rápida"
+    "ejemplo_en": "The computer is gray",
+    "ejemplo_es": "La computadora es gris"
   },
   {
     "palabra": "internet",
@@ -1381,7 +1813,7 @@ let db = [
     "tipo": "sustantivo",
     "traduccion": "internet",
     "ejemplo_en": "The internet is slow",
-    "ejemplo_es": "El internet es lento"
+    "ejemplo_es": "El internet está lento"
   },
   {
     "palabra": "radio",
@@ -1464,6 +1896,14 @@ let db = [
     "ejemplo_es": "El aeropuerto es grande"
   },
   {
+    "palabra": "flight",
+    "categoria": "turismo",
+    "tipo": "sustantivo",
+    "traduccion": "vuelo",
+    "ejemplo_en": "My flight is on time",
+    "ejemplo_es": "Mi vuelo está a tiempo"
+  },
+  {
     "palabra": "tourist",
     "categoria": "turismo",
     "tipo": "sustantivo",
@@ -1476,16 +1916,16 @@ let db = [
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "investigar",
-    "ejemplo_en": "We investigate the problem",
-    "ejemplo_es": "Nosotros investigamos el problema"
+    "ejemplo_en": "Investigate the problem",
+    "ejemplo_es": "Investiga el problema"
   },
   {
     "palabra": "evaluate",
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "evaluar",
-    "ejemplo_en": "Evaluate the option",
-    "ejemplo_es": "Evalúa la opción"
+    "ejemplo_en": "Evaluate the options",
+    "ejemplo_es": "Evalúa las opciones"
   },
   {
     "palabra": "compare",
@@ -1500,40 +1940,40 @@ let db = [
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "preparar",
-    "ejemplo_en": "Prepare the dinner",
-    "ejemplo_es": "Prepara la cena"
+    "ejemplo_en": "Prepare yourself for the exam",
+    "ejemplo_es": "Prepárate para el examen"
   },
   {
     "palabra": "select",
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "seleccionar",
-    "ejemplo_en": "Select the correct box",
-    "ejemplo_es": "Selecciona la caja correcta"
+    "ejemplo_en": "Select the correct answer",
+    "ejemplo_es": "Selecciona la respuesta correcta"
   },
   {
     "palabra": "explain",
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "explicar",
-    "ejemplo_en": "Explain the answer",
-    "ejemplo_es": "Explica la respuesta"
+    "ejemplo_en": "Explain the situation",
+    "ejemplo_es": "Explica la situación"
   },
   {
     "palabra": "organize",
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "organizar",
-    "ejemplo_en": "Organize your room",
-    "ejemplo_es": "Organiza tu habitación"
+    "ejemplo_en": "Organize your papers",
+    "ejemplo_es": "Organiza tus papeles"
   },
   {
     "palabra": "decide",
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "decidir",
-    "ejemplo_en": "You need to decide",
-    "ejemplo_es": "Tú necesitas decidir"
+    "ejemplo_en": "You need to decide now",
+    "ejemplo_es": "Tú necesitas decidir ahora"
   },
   {
     "palabra": "confirm",
@@ -1572,16 +2012,16 @@ let db = [
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "controlar",
-    "ejemplo_en": "Control the temperature please",
-    "ejemplo_es": "Controla la temperatura por favor"
+    "ejemplo_en": "Control your dog!",
+    "ejemplo_es": "Controla a tu perro!"
   },
   {
     "palabra": "describe",
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "describir",
-    "ejemplo_en": "Describe your house please",
-    "ejemplo_es": "Describe tu casa por favor"
+    "ejemplo_en": "Describe your house, please",
+    "ejemplo_es": "Describe tu casa, por favor"
   },
   {
     "palabra": "identify",
@@ -1596,24 +2036,24 @@ let db = [
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "mantener",
-    "ejemplo_en": "Maintain a clean station",
-    "ejemplo_es": "Mantén una estación limpia"
+    "ejemplo_en": "Maintain a safe distance",
+    "ejemplo_es": "Mantén una distancia segura"
   },
   {
     "palabra": "recommend",
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "recomendar",
-    "ejemplo_en": "I recommend this book",
-    "ejemplo_es": "Yo recomiendo este libro"
+    "ejemplo_en": "I recommend this movie",
+    "ejemplo_es": "Yo recomiendo esta película"
   },
   {
     "palabra": "reduce",
     "categoria": "acciones-avanzadas",
     "tipo": "verbo",
     "traduccion": "reducir",
-    "ejemplo_en": "Reduce the speed please",
-    "ejemplo_es": "Reduce la velocidad por favor"
+    "ejemplo_en": "Reduce the speed, please",
+    "ejemplo_es": "Reduce la velocidad, por favor"
   },
   {
     "palabra": "resolve",
@@ -1716,8 +2156,8 @@ let db = [
     "categoria": "descripciones-avanzadas",
     "tipo": "adjetivo",
     "traduccion": "diferente",
-    "ejemplo_en": "Your car is different",
-    "ejemplo_es": "Tu carro es diferente"
+    "ejemplo_en": "Your pen is different",
+    "ejemplo_es": "Tu bolígrafo es diferente"
   },
   {
     "palabra": "familiar",
@@ -1748,16 +2188,8 @@ let db = [
     "categoria": "descripciones-avanzadas",
     "tipo": "adjetivo",
     "traduccion": "original",
-    "ejemplo_en": "This is the original copy",
-    "ejemplo_es": "Esta es la copia original"
-  },
-  {
-    "palabra": "patience",
-    "categoria": "descripciones-avanzadas",
-    "tipo": "adjetivo",
-    "traduccion": "paciente",
-    "ejemplo_en": "The teacher is very patient",
-    "ejemplo_es": "El maestro es muy paciente"
+    "ejemplo_en": "This is the original file",
+    "ejemplo_es": "Este es el archivo original"
   },
   {
     "palabra": "responsible",

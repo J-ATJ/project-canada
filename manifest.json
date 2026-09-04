@@ -16,7 +16,7 @@
   "start_url": "./index.html",
   "background_color": "#f8f9fa",
   "display": "standalone",
-  "theme_color": "#579ff0",
+  "theme_color": "#4a90e2",
   "orientation": "portrait",
   "description": "Aplicación introductoria para memorizar vocabulario en inglés por categorías."
 }

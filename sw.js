@@ -1,4 +1,3 @@
-// sw.js
 
 const CACHE_NAME = 'project-canada-v1';
 const ASSETS = [
