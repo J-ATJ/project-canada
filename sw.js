@@ -9,7 +9,7 @@ const ASSETS = [
   './js/nivel2.js',
   './js/nivel3.js',
   './js/main.js',
-  './icons/icon-512.png'
+  './icons/maple.png'
 ];
 
 // Instalar el Service Worker y guardar archivos en caché
