@@ -146,8 +146,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
-    utterance.rate = 0.80;
+    utterance.rate = 0.78;
     utterance.pitch = 1;
+
+    const voices = synth.getVoices();
+
+    // 1. Buscamos primero voces específicas de Google locales (offline) de buena calidad
+    // Google suele numerarlas (Voice I, Voice II) o añadirles "-local" al identificador.
+    let mejorVoz = voices.find(v => v.lang === 'en-US' && (v.name.includes('local') || v.name.includes('Voice')));
+
+    // 2. Si no encuentra las anteriores, busca si está activa la de Samsung nativa
+    if (!mejorVoz) {
+      mejorVoz = voices.find(v => v.lang === 'en-US' && v.name.toUpperCase().includes('SAMSUNG'));
+    }
+
+    // 3. Como última alternativa, toma cualquier voz en inglés americano que esté disponible
+    if (!mejorVoz) {
+      mejorVoz = voices.find(v => v.lang === 'en-US');
+    }
+
+    // Asignamos la voz encontrada
+    if (mejorVoz) {
+      utterance.voice = mejorVoz;
+    }
 
     synth.speak(utterance);
   }
