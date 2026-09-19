@@ -32,6 +32,7 @@
                 <button data-target="nivel-2">Nivel 2</button>
                 <button data-target="nivel-3">Nivel 3</button>
                 <button data-target="verbs">Verbos</button>
+                <button data-target="grammar">Gramática</button>
             </div>
         </section>
 
@@ -132,6 +133,31 @@
         </section>
 
 
+        <!-- SECCIÓN DE GRAMÁTICA -->
+        <section id="grammar" class="view hidden">
+
+            <!-- BLOQUE A: EL MENÚ DE TEMAS GRAMATICALES -->
+            <div class="submenu-wrapper">
+                <button class="btn-back" data-target="landing">Volver</button>
+                <div class="menu">
+                    <button data-grammar-topic="present-simple">Present Simple</button>
+                    <button data-grammar-topic="present-continuous">Present Continuous</button>
+                    <button data-grammar-topic="past-simple">Past Simple</button>
+                    <button data-grammar-topic="future-will-wont">Future Will/Won't</button>
+                    <button data-grammar-topic="present-perfect">Present Perfect</button>
+                </div>
+            </div>
+
+            <!-- BLOQUE B: LA VENTANA DONDE SE RENDERIZAN LAS NOTAS HTML PURO -->
+            <div class="words-wrapper hidden">
+                <button class="btn-back btn-back-to-menu">Volver</button>
+                <!-- Aquí adentro JavaScript inyectará todo tu texto de apuntes -->
+                <div class="words-display"></div>
+            </div>
+
+        </section>
+
+
     </main>
 
     <footer></footer>
@@ -140,12 +166,14 @@
     <!-- Bases de datos -->
     <script src="js/db.js"></script>
     <script src="js/verbs_db.js"></script>
+    <script src="js/grammar_db.js"></script>
 
     <!-- Luego los controladores de los niveles -->
     <script src="js/nivel1.js"></script>
     <script src="js/nivel2.js"></script>
     <script src="js/nivel3.js"></script>
     <script src="js/verbs.js"></script>
+    <script src="js/grammar.js"></script>
 
 
     <!-- Archivo principal al final del body -->

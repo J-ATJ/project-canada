@@ -106,34 +106,34 @@ document.addEventListener('DOMContentLoaded', () => {
             card.className = 'word-card';
 
             card.innerHTML = `
-        <div class="word-header">
-          <span class="word-en verb-clickable">${verb.base_form}</span>
-          <span class="word-type">${type === 'regular' ? 'REGULAR' : 'IRREGULAR'}</span>
-        </div>
-        <div class="word-body">
-          <p class="word-es"><span>(${verb.spanish})</span></p>
-          
-          <!-- Pie de tarjeta indicando expansibilidad -->
-          <div class="verb-footer-toggle">Tiempos verbales</div>
-          
-          <!-- Bloque desplegable de tiempos oculto inicialmente por CSS -->
-          <div class="verb-details">
-            <div class="verb-row">
-              <span class="verb-label">Past Simple</span>
-              <span class="verb-clickable">${verb.past_simple}</span>
-            </div>
-            <div class="verb-row">
-              <span class="verb-label">Past Participle</span>
-              <span class="verb-clickable">${verb.past_participle}</span>
-            </div>
-            <div class="verb-row">
-              <span class="verb-label">Ing-Form (Gerund)</span>
-              <span class="verb-clickable">${verb.ing_form}</span>
-            </div>
-          </div>
-          
-        </div>
-      `;
+                <div class="word-header">
+                <span class="word-en verb-clickable">${verb.base_form}</span>
+                <span class="word-type">${type === 'regular' ? 'REGULAR' : 'IRREGULAR'}</span>
+                </div>
+                <div class="word-body">
+                <p class="word-es"><span>(${verb.spanish})</span></p>
+                
+                <!-- Pie de tarjeta indicando expansibilidad -->
+                <div class="verb-footer-toggle">Tiempos verbales</div>
+                
+                <!-- Bloque desplegable de tiempos oculto inicialmente por CSS -->
+                <div class="verb-details">
+                    <div class="verb-row">
+                    <span class="verb-label">Past Simple</span>
+                    <span class="verb-tense verb-clickable">${verb.past_simple}</span>
+                    </div>
+                    <div class="verb-row">
+                    <span class="verb-label">Past Participle</span>
+                    <span class="verb-tense verb-clickable">${verb.past_participle}</span>
+                    </div>
+                    <div class="verb-row">
+                    <span class="verb-label">Ing-Form (Gerund)</span>
+                    <span class="verb-tense verb-clickable">${verb.ing_form}</span>
+                    </div>
+                </div>
+                
+                </div>
+            `;
 
             displayContainer.appendChild(card);
         });

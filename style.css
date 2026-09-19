@@ -32,9 +32,9 @@ body {
 }
 
 body.dark-mode {
-    --secondary: #6c757d;
+    --secondary: #707b85;
     --secondary-dark: #1a2f43;
-    --info: #a6c4df;
+    --info: #acc9e3;
     --highlight: #fe6b5d;
     --background: #18324d;
     --white: #13283d;
@@ -251,6 +251,10 @@ button:active {
     transform: scale(0.85) !important;
 }
 
+
+
+
+
 /* --- SECCIÓN VERBOS (TARJETAS EXPANSIBLES) --- */
 
 /* Contenedor interno oculto por defecto para los tiempos verbales */
@@ -291,9 +295,7 @@ button:active {
 
 /* El texto interactivo del verbo en inglés */
 .verb-clickable {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--info);
+
     display: inline-block;
     padding: 2px 8px;
     margin-left: -8px;
@@ -308,6 +310,13 @@ button:active {
     background-color: var(--background-hover);
     color: var(--primary);
 }
+
+.verb-tense{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--info);
+}
+
 
 /* Indicador visual inferior en la tarjeta (la flecha pequeña) */
 .verb-footer-toggle {
@@ -329,4 +338,88 @@ button:active {
 /* Rotar la flecha hacia arriba cuando la tarjeta esté expandida */
 .word-card.expanded .verb-footer-toggle::after {
     transform: rotate(180deg);
+}
+
+
+
+
+
+/* --- ESTILOS ADAPTADOS PARA DOCUMENTOS DE GRAMÁTICA --- */
+
+/* Contenedor principal de la lectura */
+.grammar-doc {
+    text-align: left;
+    padding: 10px 5px;
+}
+
+/* Títulos principales (Present Simple, etc.) */
+.grammar-doc h1 {
+    font-size: 2.1rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--background-hover);
+    padding-bottom: 10px;
+}
+
+/* Subtítulos (Usos, Fórmula, Negativos, Preguntas...) */
+.grammar-doc h3 {
+    font-size: 1.5rem;
+    color: var(--secondary);
+    margin-top: 45px;
+    margin-bottom: 12px;
+}
+
+/* Párrafos de explicaciones teóricas */
+.grammar-doc p {
+    font-size: 1rem;
+    color: var(--info);
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+/* Listas de ejemplos */
+.grammar-doc ul {
+    list-style-type: none; /* Quitamos los puntos clásicos para que se vea más moderno */
+    margin-bottom: 45px;
+    padding-left: 10px;
+}
+
+/* Cada ejemplo individual */
+.grammar-doc li {
+    font-size: 0.95rem;
+    color: var(--info);
+    margin-bottom: 22px;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Añadimos un sutil viñetado personalizado en lugar del punto negro aburrido */
+.grammar-doc li::before {
+    content: "•";
+    color: var(--primary);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Palabras resaltadas en negrita (estructuras gramaticales clave) */
+.grammar-doc b {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* Traducciones al español (Cursivas) */
+.grammar-doc i {
+    color: var(--highlight); /* Resalta hermoso tanto en modo claro como oscuro */
+    font-size: 0.9rem;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+/* Respuestas */
+.grammar-doc li span{
+    margin-left: 10px;
+    font-size: 0.9rem;
+    font-style: italic;
+    display: inline-block;
 }
