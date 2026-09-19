@@ -1,13 +1,15 @@
 
-const CACHE_NAME = 'project-canada-v1';
+const CACHE_NAME = 'project-canada-v2';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './js/db.js',
+  './js/verbs_db.js',
   './js/nivel1.js',
   './js/nivel2.js',
   './js/nivel3.js',
+  './js/verbs.js',
   './js/main.js',
   './icons/maple.png'
 ];

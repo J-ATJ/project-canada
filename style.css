@@ -250,3 +250,83 @@ button:active {
 .btn-audio-example:active {
     transform: scale(0.85) !important;
 }
+
+/* --- SECCIÓN VERBOS (TARJETAS EXPANSIBLES) --- */
+
+/* Contenedor interno oculto por defecto para los tiempos verbales */
+.verb-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Clase activa que se añadirá con JS cuando el usuario toque la tarjeta */
+.word-card.expanded .verb-details {
+    max-height: 350px; /* Altura máxima suficiente para desplegar el contenido */
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px dashed var(--background-hover);
+}
+
+/* Filas individuales para cada tiempo verbal */
+.verb-row {
+    margin-bottom: 12px;
+}
+
+.verb-row:last-child {
+    margin-bottom: 5px;
+}
+
+/* Etiquetas pequeñas de los tiempos (Past Simple, Past Participle, etc) */
+.verb-label {
+    font-size: 0.75rem;
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-bottom: 2px;
+}
+
+/* El texto interactivo del verbo en inglés */
+.verb-clickable {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--info);
+    display: inline-block;
+    padding: 2px 8px;
+    margin-left: -8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    width: 100%; /* Facilita que el dedo pulse en toda la línea del móvil */
+}
+
+/* Efecto visual al mantener pulsado el tiempo verbal en el teléfono */
+.verb-clickable:active {
+    background-color: var(--background-hover);
+    color: var(--primary);
+}
+
+/* Indicador visual inferior en la tarjeta (la flecha pequeña) */
+.verb-footer-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: var(--secondary);
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.verb-footer-toggle::after {
+    content: "▼";
+    font-size: 0.7rem;
+    transition: transform 0.2s ease;
+}
+
+/* Rotar la flecha hacia arriba cuando la tarjeta esté expandida */
+.word-card.expanded .verb-footer-toggle::after {
+    transform: rotate(180deg);
+}

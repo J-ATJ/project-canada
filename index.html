@@ -31,6 +31,7 @@
                 <button data-target="nivel-1">Nivel 1</button>
                 <button data-target="nivel-2">Nivel 2</button>
                 <button data-target="nivel-3">Nivel 3</button>
+                <button data-target="verbs">Verbos</button>
             </div>
         </section>
 
@@ -110,18 +111,42 @@
         </section>
 
 
+        <!-- VERBS -->
+        <section id="verbs" class="view hidden">
+
+            <!-- BLOQUE A: EL MENÚ DE SUB-CATEGORÍAS -->
+            <div class="submenu-wrapper">
+                <button class="btn-back" data-target="landing">Volver</button>
+                <div class="menu">
+                    <button data-verb-type="regular">Regular Verbs</button>
+                    <button data-verb-type="irregular">Irregular Verbs</button>
+                </div>
+            </div>
+
+            <!-- BLOQUE B: LA VENTANA DE LAS TARJETAS EXPANSIBLES -->
+            <div class="words-wrapper hidden">
+                <button class="btn-back btn-back-to-menu">Volver</button>
+                <div class="words-display"></div>
+            </div>
+
+        </section>
+
+
     </main>
 
     <footer></footer>
 
 
-    <!-- Primero los datos -->
+    <!-- Bases de datos -->
     <script src="js/db.js"></script>
+    <script src="js/verbs_db.js"></script>
 
     <!-- Luego los controladores de los niveles -->
     <script src="js/nivel1.js"></script>
     <script src="js/nivel2.js"></script>
     <script src="js/nivel3.js"></script>
+    <script src="js/verbs.js"></script>
+
 
     <!-- Archivo principal al final del body -->
     <script src="js/main.js"></script>
